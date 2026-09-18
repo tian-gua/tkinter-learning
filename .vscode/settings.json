@@ -1,0 +1,43 @@
+{
+  "files.exclude": {
+    ".idea": true,
+    ".git": true,
+    "**/__pycache__": true,
+    ".ruff_cache": true
+  },
+
+  "editor.formatOnSave": true,
+
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit",
+      "source.fixAll": "explicit"
+    }
+  },
+
+  // 调试配置
+  "python.terminal.activateEnvironment": true,
+
+  // 编辑器配置
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "editor.rulers": [120],
+  "editor.wordWrap": "on",
+
+  // 主题和外观配置
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#330066",
+    "titleBar.inactiveBackground": "#330066",
+    "statusBar.background": "#330066",
+
+    "editor.wordHighlightBorder": "#afafaf",
+    "editor.wordHighlightStrongBorder": "#d97400",
+
+    // 当前标签页边框颜色
+    "tab.activeBorder": "#89b4fa"
+  },
+  "python-envs.defaultEnvManager": "ms-python.python:conda",
+  "python-envs.defaultPackageManager": "ms-python.python:conda"
+}
